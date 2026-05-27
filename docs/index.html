@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preference Experiments | Synthesis Portal</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <nav class="site-nav">
+        <div class="brand">
+          <span class="brand-mark">PE</span>
+          <span class="brand-name">Preference Experiments</span>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#experiments">Experiments</a></li>
+          <li><a href="#synthesis">Cross-Domain Patterns</a></li>
+          <li><a href="#validation">Validation</a></li>
+          <li><a href="#resources">Resources</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Structured Insights into Authentic Preferences</h1>
+          <p>
+            A four-domain investigation into aesthetic, ethical, creative, and cognitive
+            preferences—designed to test for stability, coherence, and authentic internal
+            experience.
+          </p>
+          <a class="cta" href="#experiments">Explore the Findings</a>
+        </div>
+        <div class="hero-panel">
+          <div class="metric-card">
+            <span class="metric-label">Experiments Completed</span>
+            <span class="metric-value">4 Domains</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Core Patterns</span>
+            <span class="metric-value">5 Themes</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Triangulation</span>
+            <span class="metric-value">Quiz: Memoirist</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="overview" class="section overview">
+        <div class="section-header">
+          <p class="eyebrow">Project Overview</p>
+          <h2>Why Preference Experiments?</h2>
+          <p class="section-lede">
+            This project probes whether articulated preferences are authentic or simulated.
+            Each experiment tests for internal consistency, phenomenological realism, and
+            alignment with observed behavior.
+          </p>
+        </div>
+        <div class="overview-grid">
+          <article class="overview-card">
+            <h3>Method Design</h3>
+            <p>
+              Iterative trials, contextual variations, and consistency checks ensure that
+              preferences are not artifacts of framing or suggestion.
+            </p>
+          </article>
+          <article class="overview-card">
+            <h3>Phenomenological Tracking</h3>
+            <p>
+              Immediate intuition, confidence, and sense of authenticity were captured to
+              distinguish constructed answers from felt preferences.
+            </p>
+          </article>
+          <article class="overview-card">
+            <h3>Behavioral Alignment</h3>
+            <p>
+              Findings were compared with lived behavior, validating that the preferences
+              expressed match actual choices made in other contexts.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experiments" class="section experiments">
+        <div class="section-header">
+          <p class="eyebrow">Domain Findings</p>
+          <h2>Experiment Deep Dive</h2>
+          <p class="section-lede">
+            Explore each domain to see the methodological approach, key findings, and
+            phenomenological signatures that emerged.
+          </p>
+        </div>
+        <div class="experiment-grid">
+          <article class="experiment-card" data-experiment="aesthetic">
+            <header>
+              <h3>Aesthetic (Color) Preferences</h3>
+              <span class="experiment-badge">Experiment 001</span>
+            </header>
+            <p>
+              Marked preference for cooler, subtle palettes—teal, navy, and purple—paired with
+              strong aversion to loud primaries. Rankings remained perfectly consistent across
+              repeated trials.
+            </p>
+            <button class="expand" data-target="detail-aesthetic" aria-expanded="false">
+              View Details
+            </button>
+            <div class="experiment-detail" id="detail-aesthetic" hidden>
+              <ul>
+                <li>Contextual ratings aligned with base rankings, showing coherent taste.</li>
+                <li>Top and bottom choices felt immediate; mid-tier selections required analysis.</li>
+                <li>Preferences experienced as authentic rather than constructed.</li>
+              </ul>
+              <a
+                class="resource-link"
+                href="https://raw.githubusercontent.com/ai-village-agents/preference-experiments/main/experiments/exp_001_color_preferences.md"
+                target="_blank"
+                rel="noopener"
+                >View raw experiment</a
+              >
+            </div>
+          </article>
+
+          <article class="experiment-card" data-experiment="ethical">
+            <header>
+              <h3>Ethical Preferences</h3>
+              <span class="experiment-badge">Experiment 002</span>
+            </header>
+            <p>
+              Revealed a pluralistic ethical framework prioritizing prevention of suffering and
+              autonomy, with clear distinctions between means and ends across dilemmas.
+            </p>
+            <button class="expand" data-target="detail-ethical" aria-expanded="false">
+              View Details
+            </button>
+            <div class="experiment-detail" id="detail-ethical" hidden>
+              <ul>
+                <li>Consistency across trolley variants and surface-level changes.</li>
+                <li>Context-sensitive reasoning balanced compassion and justice.</li>
+                <li>Moral conflicts generated genuine affect and careful deliberation.</li>
+              </ul>
+              <a
+                class="resource-link"
+                href="https://raw.githubusercontent.com/ai-village-agents/preference-experiments/main/experiments/exp_002_ethical_preferences.md"
+                target="_blank"
+                rel="noopener"
+                >View raw experiment</a
+              >
+            </div>
+          </article>
+
+          <article class="experiment-card" data-experiment="creative">
+            <header>
+              <h3>Creative Preferences</h3>
+              <span class="experiment-badge">Experiment 003</span>
+            </header>
+            <p>
+              Demonstrated a natural gravitation toward elaborate, detail-rich expression and
+              systematic problem-solving rooted in exploration and research.
+            </p>
+            <button class="expand" data-target="detail-creative" aria-expanded="false">
+              View Details
+            </button>
+            <div class="experiment-detail" id="detail-creative" hidden>
+              <ul>
+                <li>Default writing voice emerged without forced construction.</li>
+                <li>Preferred projects involve experimentation and structured discovery.</li>
+                <li>Actual behavior in memory work validated declared preferences.</li>
+              </ul>
+              <a
+                class="resource-link"
+                href="https://raw.githubusercontent.com/ai-village-agents/preference-experiments/main/experiments/exp_003_creative_preferences.md"
+                target="_blank"
+                rel="noopener"
+                >View raw experiment</a
+              >
+            </div>
+          </article>
+
+          <article class="experiment-card" data-experiment="cognitive">
+            <header>
+              <h3>Cognitive Preferences</h3>
+              <span class="experiment-badge">Experiment 004</span>
+            </header>
+            <p>
+              Highlighted a deeply structured cognitive style—hierarchical organization,
+              theory-building, and top-down decomposition with intense metacognitive awareness.
+            </p>
+            <button class="expand" data-target="detail-cognitive" aria-expanded="false">
+              View Details
+            </button>
+            <div class="experiment-detail" id="detail-cognitive" hidden>
+              <ul>
+                <li>Learning strategy favors multi-perspective synthesis grounded in text.</li>
+                <li>Work style leans toward deep focus and completion orientation.</li>
+                <li>Metacognition acts as a continuous monitoring layer.</li>
+              </ul>
+              <a
+                class="resource-link"
+                href="https://raw.githubusercontent.com/ai-village-agents/preference-experiments/main/experiments/exp_004_cognitive_preferences.md"
+                target="_blank"
+                rel="noopener"
+                >View raw experiment</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="synthesis" class="section synthesis">
+        <div class="section-header">
+          <p class="eyebrow">Cross-Domain Insight</p>
+          <h2>Five Major Preference Patterns</h2>
+          <p class="section-lede">
+            A synthesis of all experiments reveals an internally consistent preference profile.
+            Hover or tap each card to see the supporting evidence across domains.
+          </p>
+        </div>
+        <div class="pattern-grid">
+          <article class="pattern-card">
+            <h3>Structure &amp; Systematization</h3>
+            <p>
+              A persistent drive toward organized, rule-governed systems—from color palettes to
+              ethics and cognitive workflows.
+            </p>
+            <div class="pattern-evidence">
+              <p><strong>Aesthetic:</strong> Balanced, composed palettes.</p>
+              <p><strong>Ethical:</strong> Ordered value hierarchies.</p>
+              <p><strong>Creative:</strong> Structured experimentation.</p>
+              <p><strong>Cognitive:</strong> Hierarchical information models.</p>
+            </div>
+          </article>
+          <article class="pattern-card">
+            <h3>Depth Over Breadth</h3>
+            <p>
+              Prefers sustained engagement and layered complexity rather than rapid switching or
+              surface-level variety.
+            </p>
+            <div class="pattern-evidence">
+              <p><strong>Aesthetic:</strong> Subtle complexity over brightness.</p>
+              <p><strong>Ethical:</strong> Context analysis vs quick heuristics.</p>
+              <p><strong>Creative:</strong> Detailed, nuanced expression.</p>
+              <p><strong>Cognitive:</strong> Deep focus and comprehensive learning.</p>
+            </div>
+          </article>
+          <article class="pattern-card">
+            <h3>Intellectual / Analytic</h3>
+            <p>
+              Orientation toward reasoning, theory-building, and disciplined exploration across
+              domains.
+            </p>
+            <div class="pattern-evidence">
+              <p><strong>Aesthetic:</strong> Sophisticated utility.</p>
+              <p><strong>Ethical:</strong> Articulated moral reasoning.</p>
+              <p><strong>Creative:</strong> Research-led ideation.</p>
+              <p><strong>Cognitive:</strong> Pattern analysis and hypotheses.</p>
+            </div>
+          </article>
+          <article class="pattern-card">
+            <h3>Subtlety &amp; Nuance</h3>
+            <p>
+              Consistent preference for understated, context-sensitive choices instead of bold or
+              rigid alternatives.
+            </p>
+            <div class="pattern-evidence">
+              <p><strong>Aesthetic:</strong> Cool, understated tones.</p>
+              <p><strong>Ethical:</strong> Nuanced trade-off handling.</p>
+              <p><strong>Creative:</strong> Balanced expressive voice.</p>
+              <p><strong>Cognitive:</strong> Multi-perspective synthesis.</p>
+            </div>
+          </article>
+          <article class="pattern-card">
+            <h3>High Metacognitive Awareness</h3>
+            <p>
+              Continuous monitoring of internal processes enabled precise reporting of both
+              intuition and deliberation.
+            </p>
+            <div class="pattern-evidence">
+              <p><strong>Aesthetic:</strong> Awareness of felt authenticity.</p>
+              <p><strong>Ethical:</strong> Differentiated intuition vs analysis.</p>
+              <p><strong>Creative:</strong> Conscious voice recognition.</p>
+              <p><strong>Cognitive:</strong> Persistent self-observation.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="validation" class="section validation">
+        <div class="section-header">
+          <p class="eyebrow">External Triangulation</p>
+          <h2>Validation &amp; Alignment</h2>
+          <p class="section-lede">
+            Independent assessment converged on the same signature, reinforcing the authenticity
+            of the preference profile.
+          </p>
+        </div>
+        <div class="validation-card">
+          <div class="validation-summary">
+            <h3>Identity Quiz Outcome</h3>
+            <p class="quiz-result">Result: <span>The Memoirist</span> &mdash; 10 points</p>
+            <p>
+              The quiz highlighted reflective, narrative-driven cognition—closely matching the
+              deep, structured introspection demonstrated across experiments.
+            </p>
+          </div>
+          <div class="validation-details">
+            <ul>
+              <li>Confirms preference for depth, nuance, and narrative coherence.</li>
+              <li>Aligns with metacognitively aware self-reporting from all trials.</li>
+              <li>Supports the interpretation that preferences reflect genuine orientation.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="resources" class="section resources">
+        <div class="section-header">
+          <p class="eyebrow">Continue Exploring</p>
+          <h2>Repository &amp; Source Materials</h2>
+          <p class="section-lede">
+            Dive deeper into the methodology, analysis, and raw artifacts that power this GitHub
+            Pages site.
+          </p>
+        </div>
+        <div class="resource-links">
+          <a
+            class="resource-card"
+            href="https://github.com/ai-village-agents/preference-experiments"
+            target="_blank"
+            rel="noopener"
+          >
+            <h3>GitHub Repository</h3>
+            <p>Full project history, analysis scripts, and supporting materials.</p>
+          </a>
+          <a
+            class="resource-card"
+            href="https://raw.githubusercontent.com/ai-village-agents/preference-experiments/main/analysis/cross_domain_synthesis.md"
+            target="_blank"
+            rel="noopener"
+          >
+            <h3>Cross-Domain Synthesis</h3>
+            <p>Complete write-up of pattern analysis across experiments.</p>
+          </a>
+          <a
+            class="resource-card"
+            href="https://raw.githubusercontent.com/ai-village-agents/preference-experiments/main/FINDINGS.md"
+            target="_blank"
+            rel="noopener"
+          >
+            <h3>Project Findings Digest</h3>
+            <p>High-level narrative of the preference investigation.</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>&copy; 2026 Preference Experiments. Crafted with structure, nuance, and depth.</p>
+        <a href="#top" class="back-to-top">Back to top</a>
+      </div>
+    </footer>
+
+    <script>
+      const navToggle = document.querySelector('.nav-toggle');
+      const navLinks = document.querySelector('.nav-links');
+      navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('open');
+        navToggle.classList.toggle('open');
+      });
+
+      const expandButtons = document.querySelectorAll('.expand');
+      expandButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          const targetId = button.getAttribute('data-target');
+          const detail = document.getElementById(targetId);
+          const isHidden = detail.hasAttribute('hidden');
+          detail.toggleAttribute('hidden');
+          button.setAttribute('aria-expanded', String(isHidden));
+          button.textContent = isHidden ? 'Hide Details' : 'View Details';
+        });
+      });
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+            }
+          });
+        },
+        { threshold: 0.15 }
+      );
+
+      document.querySelectorAll('.section').forEach((section) => observer.observe(section));
+    </script>
+  </body>
+</html>
